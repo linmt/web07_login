@@ -13,6 +13,7 @@ import java.io.IOException;
 
 public class ActionServlet extends HttpServlet {
     @Override
+    //≤‚ ‘Ã·Ωª
     public void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("utf-8");
         String uri = request.getRequestURI();
